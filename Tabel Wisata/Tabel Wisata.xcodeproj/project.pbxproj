@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42B14551F95DE4D007F06E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B14541F95DE4D007F06E2 /* AppDelegate.swift */; };
+		C42B14571F95DE4D007F06E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B14561F95DE4D007F06E2 /* ViewController.swift */; };
+		C42B145A1F95DE4D007F06E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42B14581F95DE4D007F06E2 /* Main.storyboard */; };
+		C42B145F1F95DE4D007F06E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42B145D1F95DE4D007F06E2 /* LaunchScreen.storyboard */; };
+		C42B146A1F95DE4E007F06E2 /* Tabel_WisataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B14691F95DE4E007F06E2 /* Tabel_WisataTests.swift */; };
+		C42B14751F95DE4E007F06E2 /* Tabel_WisataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B14741F95DE4E007F06E2 /* Tabel_WisataUITests.swift */; };
+		C49641551F95DF3D006806B9 /* WisataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49641541F95DF3D006806B9 /* WisataTableViewController.swift */; };
+		C4F630961F9606AF0067184A /* MapKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F630951F9606AF0067184A /* MapKitViewController.swift */; };
+		C4F630981F9608FA0067184A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F630971F9608FA0067184A /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42B14661F95DE4E007F06E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42B14491F95DE4D007F06E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42B14501F95DE4D007F06E2;
+			remoteInfo = "Tabel Wisata";
+		};
+		C42B14711F95DE4E007F06E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42B14491F95DE4D007F06E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42B14501F95DE4D007F06E2;
+			remoteInfo = "Tabel Wisata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42B14511F95DE4D007F06E2 /* Tabel Wisata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tabel Wisata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B14541F95DE4D007F06E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C42B14561F95DE4D007F06E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C42B14591F95DE4D007F06E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C42B145E1F95DE4D007F06E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C42B14601F95DE4D007F06E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42B14651F95DE4E007F06E2 /* Tabel WisataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabel WisataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B14691F95DE4E007F06E2 /* Tabel_WisataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabel_WisataTests.swift; sourceTree = "<group>"; };
+		C42B146B1F95DE4E007F06E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42B14701F95DE4E007F06E2 /* Tabel WisataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tabel WisataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42B14741F95DE4E007F06E2 /* Tabel_WisataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabel_WisataUITests.swift; sourceTree = "<group>"; };
+		C42B14761F95DE4E007F06E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C48A353C1F95EC720040F418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49641541F95DF3D006806B9 /* WisataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisataTableViewController.swift; sourceTree = "<group>"; };
+		C4F630951F9606AF0067184A /* MapKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitViewController.swift; sourceTree = "<group>"; };
+		C4F630971F9608FA0067184A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42B144E1F95DE4D007F06E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B14621F95DE4E007F06E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B146D1F95DE4E007F06E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42B14481F95DE4D007F06E2 = {
+			isa = PBXGroup;
+			children = (
+				C42B14531F95DE4D007F06E2 /* Tabel Wisata */,
+				C42B14681F95DE4E007F06E2 /* Tabel WisataTests */,
+				C42B14731F95DE4E007F06E2 /* Tabel WisataUITests */,
+				C42B14521F95DE4D007F06E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42B14521F95DE4D007F06E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42B14511F95DE4D007F06E2 /* Tabel Wisata.app */,
+				C42B14651F95DE4E007F06E2 /* Tabel WisataTests.xctest */,
+				C42B14701F95DE4E007F06E2 /* Tabel WisataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42B14531F95DE4D007F06E2 /* Tabel Wisata */ = {
+			isa = PBXGroup;
+			children = (
+				C42B14541F95DE4D007F06E2 /* AppDelegate.swift */,
+				C42B14561F95DE4D007F06E2 /* ViewController.swift */,
+				C42B14581F95DE4D007F06E2 /* Main.storyboard */,
+				C48A353C1F95EC720040F418 /* Assets.xcassets */,
+				C42B145D1F95DE4D007F06E2 /* LaunchScreen.storyboard */,
+				C42B14601F95DE4D007F06E2 /* Info.plist */,
+				C49641541F95DF3D006806B9 /* WisataTableViewController.swift */,
+				C4F630951F9606AF0067184A /* MapKitViewController.swift */,
+				C4F630971F9608FA0067184A /* DetailViewController.swift */,
+			);
+			path = "Tabel Wisata";
+			sourceTree = "<group>";
+		};
+		C42B14681F95DE4E007F06E2 /* Tabel WisataTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42B14691F95DE4E007F06E2 /* Tabel_WisataTests.swift */,
+				C42B146B1F95DE4E007F06E2 /* Info.plist */,
+			);
+			path = "Tabel WisataTests";
+			sourceTree = "<group>";
+		};
+		C42B14731F95DE4E007F06E2 /* Tabel WisataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C42B14741F95DE4E007F06E2 /* Tabel_WisataUITests.swift */,
+				C42B14761F95DE4E007F06E2 /* Info.plist */,
+			);
+			path = "Tabel WisataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42B14501F95DE4D007F06E2 /* Tabel Wisata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42B14791F95DE4E007F06E2 /* Build configuration list for PBXNativeTarget "Tabel Wisata" */;
+			buildPhases = (
+				C42B144D1F95DE4D007F06E2 /* Sources */,
+				C42B144E1F95DE4D007F06E2 /* Frameworks */,
+				C42B144F1F95DE4D007F06E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tabel Wisata";
+			productName = "Tabel Wisata";
+			productReference = C42B14511F95DE4D007F06E2 /* Tabel Wisata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42B14641F95DE4E007F06E2 /* Tabel WisataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42B147C1F95DE4E007F06E2 /* Build configuration list for PBXNativeTarget "Tabel WisataTests" */;
+			buildPhases = (
+				C42B14611F95DE4E007F06E2 /* Sources */,
+				C42B14621F95DE4E007F06E2 /* Frameworks */,
+				C42B14631F95DE4E007F06E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42B14671F95DE4E007F06E2 /* PBXTargetDependency */,
+			);
+			name = "Tabel WisataTests";
+			productName = "Tabel WisataTests";
+			productReference = C42B14651F95DE4E007F06E2 /* Tabel WisataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C42B146F1F95DE4E007F06E2 /* Tabel WisataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42B147F1F95DE4E007F06E2 /* Build configuration list for PBXNativeTarget "Tabel WisataUITests" */;
+			buildPhases = (
+				C42B146C1F95DE4E007F06E2 /* Sources */,
+				C42B146D1F95DE4E007F06E2 /* Frameworks */,
+				C42B146E1F95DE4E007F06E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42B14721F95DE4E007F06E2 /* PBXTargetDependency */,
+			);
+			name = "Tabel WisataUITests";
+			productName = "Tabel WisataUITests";
+			productReference = C42B14701F95DE4E007F06E2 /* Tabel WisataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42B14491F95DE4D007F06E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Gw;
+				TargetAttributes = {
+					C42B14501F95DE4D007F06E2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					C42B14641F95DE4E007F06E2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C42B14501F95DE4D007F06E2;
+					};
+					C42B146F1F95DE4E007F06E2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C42B14501F95DE4D007F06E2;
+					};
+				};
+			};
+			buildConfigurationList = C42B144C1F95DE4D007F06E2 /* Build configuration list for PBXProject "Tabel Wisata" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42B14481F95DE4D007F06E2;
+			productRefGroup = C42B14521F95DE4D007F06E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42B14501F95DE4D007F06E2 /* Tabel Wisata */,
+				C42B14641F95DE4E007F06E2 /* Tabel WisataTests */,
+				C42B146F1F95DE4E007F06E2 /* Tabel WisataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42B144F1F95DE4D007F06E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B145F1F95DE4D007F06E2 /* LaunchScreen.storyboard in Resources */,
+				C42B145A1F95DE4D007F06E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B14631F95DE4E007F06E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B146E1F95DE4E007F06E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42B144D1F95DE4D007F06E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B14571F95DE4D007F06E2 /* ViewController.swift in Sources */,
+				C42B14551F95DE4D007F06E2 /* AppDelegate.swift in Sources */,
+				C4F630981F9608FA0067184A /* DetailViewController.swift in Sources */,
+				C4F630961F9606AF0067184A /* MapKitViewController.swift in Sources */,
+				C49641551F95DF3D006806B9 /* WisataTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B14611F95DE4E007F06E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B146A1F95DE4E007F06E2 /* Tabel_WisataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42B146C1F95DE4E007F06E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42B14751F95DE4E007F06E2 /* Tabel_WisataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42B14671F95DE4E007F06E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42B14501F95DE4D007F06E2 /* Tabel Wisata */;
+			targetProxy = C42B14661F95DE4E007F06E2 /* PBXContainerItemProxy */;
+		};
+		C42B14721F95DE4E007F06E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42B14501F95DE4D007F06E2 /* Tabel Wisata */;
+			targetProxy = C42B14711F95DE4E007F06E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C42B14581F95DE4D007F06E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42B14591F95DE4D007F06E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C42B145D1F95DE4D007F06E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42B145E1F95DE4D007F06E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42B14771F95DE4E007F06E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C42B14781F95DE4E007F06E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42B147A1F95DE4E007F06E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tabel Wisata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Tabel-Wisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C42B147B1F95DE4E007F06E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tabel Wisata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Tabel-Wisata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C42B147D1F95DE4E007F06E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tabel WisataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Tabel-WisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabel Wisata.app/Tabel Wisata";
+			};
+			name = Debug;
+		};
+		C42B147E1F95DE4E007F06E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tabel WisataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Tabel-WisataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tabel Wisata.app/Tabel Wisata";
+			};
+			name = Release;
+		};
+		C42B14801F95DE4E007F06E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tabel WisataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Tabel-WisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabel Wisata";
+			};
+			name = Debug;
+		};
+		C42B14811F95DE4E007F06E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tabel WisataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "F.Tabel-WisataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Tabel Wisata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42B144C1F95DE4D007F06E2 /* Build configuration list for PBXProject "Tabel Wisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B14771F95DE4E007F06E2 /* Debug */,
+				C42B14781F95DE4E007F06E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42B14791F95DE4E007F06E2 /* Build configuration list for PBXNativeTarget "Tabel Wisata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B147A1F95DE4E007F06E2 /* Debug */,
+				C42B147B1F95DE4E007F06E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42B147C1F95DE4E007F06E2 /* Build configuration list for PBXNativeTarget "Tabel WisataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B147D1F95DE4E007F06E2 /* Debug */,
+				C42B147E1F95DE4E007F06E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42B147F1F95DE4E007F06E2 /* Build configuration list for PBXNativeTarget "Tabel WisataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42B14801F95DE4E007F06E2 /* Debug */,
+				C42B14811F95DE4E007F06E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42B14491F95DE4D007F06E2 /* Project object */;
+}
